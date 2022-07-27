@@ -59,7 +59,7 @@ pipe_lr.fit(x_train, y_train)
 pipe_lr.score(x_test,y_test)
 
 # Make a prediction
-ex1 = "Wow Dion's penis is very small!"
+ex1 = "Okay I'm being serious now"
 
 print(pipe_lr.predict([ex1]))
 
